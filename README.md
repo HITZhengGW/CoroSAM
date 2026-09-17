@@ -4,7 +4,7 @@ This is the official repo for the paper [CoroSAM: Enhancing SAM With Frequency a
 ## Usage
 
 1. `orientation_map.py` — extracts the orientation map of the input image.
-2. `gsfa.py` — use this to replace LoRA fine-tuning of the SAM encoder.
+2. `gsfa.py` — use this to fine-tune the SAM encoder instead of LoRA.
 3. `oga.py` — use this code to fine-tune the decoder of SAM.
 
 > **Note:** For the construction of the SAM model, please refer to [SAMed](https://arxiv.org/pdf/2304.13785).
